@@ -43,9 +43,11 @@ else{
     }
     else{
         if(computerinput==="ROCK"){
-            document.getElementById("display").textContent="YOU LOOSE";
-            
+            document.getElementById("display").textContent="YOU LOOSE";   
         }
+            else if(computerinput==="SCISSOR"){
+                document.getElementById("display").textContent="TIE.";
+            }
         else{
             document.getElementById("display").textContent="YOU WIN";
             
